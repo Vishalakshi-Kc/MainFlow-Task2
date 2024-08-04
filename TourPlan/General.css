@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: linear-gradient(rgba(185,226,245,0.25),rgba(185,226,245,0.25)),url(/Images/BackDrop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+  
+}
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    color:#17252a;
+    font-size: 5vmin;
+}
+
+.line{
+    border-bottom: 3px #45a29e solid;
+    width:30%;
+    margin-left: 35%;
+}
+
+img{
+    padding: 50px;
+    opacity:0.75;
+    box-shadow: #45a29e;
+    transition: all 0.5s;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+.trips{
+    display: block;
+}
+
+h2{
+    color:#27504e;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+h4{
+    padding-left: 25%;
+    font-size: 3vmin;
+    color:#2b7a78;
+    margin:5px;
+}
+
+ul{
+    padding:10px;
+    list-style-type:none;
+}
+
+li{
+    padding-left: 30%;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .trips{
+        display: block;
+    }
+    h4{
+        padding-left: 30px;
+        margin: 0;
+    }
+    li{
+        padding: 10px;
+    }
+}
